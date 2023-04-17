@@ -1,0 +1,29 @@
+# This is an simple Rest-API based on employee model of mongoDB
+
+[Prerequisite-
+run npm run i in terminal
+make database employee in mySql]
+
+To use this api, steps are given below:
+
+[1] For Creating a employee use the localhost of your machine : "localhost:3000/" and use post method
+
+    in postman/thunderclient, providing key and value pair (fullName ,jobTitle ,phoneNumber ,email ,address ,city ,state ,primaryName ,primaryPhoneNumber ,primaryRelationship ,secondaryName ,secondaryPhoneNumber ,secondaryRelationship).
+
+[2] For reading all employee use the localhost of your machine : "localhost:3000/" and use get method
+
+    in postman/thunderclient.
+
+[3] For reading a single employee use the localhost of your machine : "localhost:3000/id" and use get method
+
+    in postman/thunderclient, providing the id of the employee in the url mentioned, that you want to see.
+
+[4] For updating a employee use the localhost of your machine : "localhost:3000/id" and use patch method
+
+    in postman/thunderclient, providing the id of the employee in the url mentioned, that you want to update and the parameter
+
+    that has  to change (name or age or any other thing).
+
+[5] For deleting a single employee use the localhost of your machine : "localhost:3000/id" and use delete method
+
+    in postman/thunderclient, providing the id of the employee in the url mentioned, that you want to delete.
